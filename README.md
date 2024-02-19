@@ -2,13 +2,7 @@
 
 This project showcases an elegant and responsive footer built using HTML and Tailwind CSS.
 
-## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
