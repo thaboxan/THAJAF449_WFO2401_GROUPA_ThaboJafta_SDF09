@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
     <title>Footer Project</title>
+    <!-- Include Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to Tailwind CSS styles -->
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
+    <!-- Footer Section -->
     <footer class="bg-[#659f8f]">
+      <!-- Outer Container for Footer Content -->
       <div class="container">
+        <!-- Inner Container for Styling -->
         <div class="bg-[#659f8f]">
+          <!-- Container for Padding -->
           <div class="container px-6 py-12 mx-auto">
+            <!-- Footer Grid Layout -->
             <div
               class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"
             >
+              <!-- Newsletter Subscription Section -->
               <div class="sm:col-span-2">
+                <!-- Newsletter Title -->
                 <h1
                   class="rounded-s-md max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-white"
                 >
                   Subscribe to our newsletter for updates
                 </h1>
+                <!-- Subscription Form Container -->
                 <div
                   class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row"
                 >
+                  <!-- Email Input Field -->
                   <input
                     id="email"
                     type="text"
                     placeholder="Email Address"
                     class="w-full md:w-auto px-4 py-2 text-[#313131] bg-white border rounded-md mr-2 focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]"
                   />
+                  <!-- Subscribe Button -->
                   <button
-                    class="w-full md:w-auto px-4 py-2 bg-[#d86943] rounded-md"
+                    class="w-full md:w-auto px-4 py-2 bg-[#d86943] rounded-md hover:bg-opacity-80 transition-colors"
                   >
                     Subscribe
                   </button>
                 </div>
               </div>
+              <!-- Quick Links Section -->
               <div>
+                <!-- Quick Links Title -->
                 <p class="text-[#313131] font-bold">Quick Link</p>
+                <!-- Quick Links List -->
                 <div class="flex flex-col">
                   <a href="#">Home</a>
                   <a href="#">Who We Are</a>
                   <a href="#">Our Philosophy</a>
                 </div>
               </div>
+              <!-- Technologies Section -->
               <div>
+                <!-- Technologies Title -->
                 <p class="text-[#313131] font-bold">Technologies</p>
+                <!-- Technologies List -->
                 <div class="flex flex-col">
                   <a href="#">HTML</a>
                   <a href="#">CSS</a>
@@ -57,15 +77,15 @@
                 </div>
               </div>
             </div>
-
+            <!-- Separator Line -->
             <hr class="my-6 border-[#d86943]" />
-
+            <!-- Footer Logo -->
             <div class="flex items-center justify-between">
               <a href="#">
                 <img
                   class="w-auto h-7"
                   src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
-                  alt=""
+                  alt="codespace logo"
                 />
               </a>
             </div>
